@@ -1,5 +1,5 @@
 import React from 'react';
-import { Panel, Checkbox, Grid, Col, Label} from 'react-bootstrap';
+import { Panel, Checkbox, Grid, Col, Label } from 'react-bootstrap';
 
 export default class ListingItem extends React.Component{
   constructor(props) {
@@ -49,22 +49,23 @@ export default class ListingItem extends React.Component{
         <Panel bsStyle="info">
         <Panel.Heading>
           <span>
-          {this.props.hit.airtime} -- {this.props.hit.show}
-          </span><span align='right'>
-          <Checkbox checked={this.state.favorited}
-          onChange={this.handleChange}>
-          Favorite
-          </Checkbox></span>
+            {this.props.hit.airtime} -- {this.props.hit.show}
+          </span>
+          <span align='right'>
+            <Checkbox checked={this.state.favorited}
+            onChange={this.handleChange}>
+            Favorite
+            </Checkbox>
+          </span>
         </Panel.Heading>
           <Grid fluid={true}>
             <Col md={3}>
               <img src={this.props.hit.image}/>
             </Col>
             <Col md={8}>
-            <h4> Season {this.props.hit.season} <Label>{this.props.hit.episode}</Label></h4>
+              <h4> Season {this.props.hit.season} <Label>{this.props.hit.episode}</Label></h4>
               <p> on {this.props.hit.network}</p>
               <p>{this.props.hit.description}</p>
-
             </Col>
           </Grid>
         </Panel>

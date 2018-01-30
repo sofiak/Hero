@@ -1,6 +1,5 @@
 import React from 'react';
-import { Panel, Checkbox }
-from 'react-bootstrap';
+import { Panel, Checkbox } from 'react-bootstrap';
 import SidebarItem from './sidebar_item';
 
 export default class Sidebar extends React.Component {

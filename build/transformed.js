@@ -9275,7 +9275,8 @@ class Listings extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
       null,
       this.props.hits.map(hit => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__listing_item__["a" /* default */], { key: hit.id, hit: hit,
         update: this.props.updateFavorites,
-        filters: this.props.filters, favorites_mode: this.props.favorites_mode,
+        filters: this.props.filters,
+        favorites_mode: this.props.favorites_mode,
         favorites: this.props.favorites }))
     );
   }
