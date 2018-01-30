@@ -2,7 +2,6 @@ import React from 'react';
 import NavigationBar from "./nav_bar";
 import DataFetcher from './data_fetcher';
 import AllListings from './all_listings';
-import Favorites from './favorites';
 
 export default class App extends React.Component {
 
