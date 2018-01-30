@@ -10,7 +10,7 @@ The data is being fetched from `http://api.tvmaze.com/schedule` as JSON.
 2. `npm run build`
 3.  Run `build/index.html`
 
-##Running locally
+## Running locally
 1. `npm install`
 2. `npm run start`  
-It will start a server on `localhost:8080` 
+It will start a server on `localhost:8080`
